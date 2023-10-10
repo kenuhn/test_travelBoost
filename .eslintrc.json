@@ -1,0 +1,75 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": ["eslint:recommended", "next/core-web-vitals", "prettier"],
+  "globals": {
+    "JSX": true,
+    "NodeJS": true,
+    "Tranlation": true,
+    "translate": true
+  },
+  "overrides": [
+    {
+      "files": ["*.json", ".prettierrc", ".eslintrc"],
+      "rules": {
+        "quote-props": ["error", "always"],
+        "quotes": ["error", "double"]
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "rules": {
+    "@next/next/no-before-interactive-script-outside-document": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "curly": ["error", "all"],
+    "max-len": [
+      "error",
+      {
+        "code": 200,
+        "ignoreComments": true,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": ["debug", "error", "info", "warn"]
+      }
+    ],
+    "no-prototype-builtins": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "nonblock-statement-body-position": ["error", "below"],
+    "object-shorthand": ["error", "always"],
+    "quote-props": ["warn", "consistent-as-needed"],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true,
+        "avoidEscape": true
+      }
+    ],
+    "radix": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-curly-brace-presence": "off",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ]
+  }
+}

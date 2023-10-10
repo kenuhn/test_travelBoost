@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+*.local
+node_modules/*
+*.css
+*.html
+.next/*
+*.mdx
+README.md
+*.yaml

@@ -1,0 +1,5 @@
+.git/
+.vscode/
+.next/
+.husky/
+node_modules/

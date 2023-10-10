@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+node_modules/*
+*.css
+*.html
+.next/*
+*.json
+*.mdx
+README.md

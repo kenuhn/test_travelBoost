@@ -1,0 +1,51 @@
+[
+  {
+    "color": "#EE3423",
+    "end_time": "2023-09-25T09:03:00",
+    "place": "Walk",
+    "start_time": "2023-09-25T09:00:00",
+    "visit_duration": 0.7
+  },
+  {
+    "color": "#FFD305",
+    "end_time": "2023-09-25T09:27:00",
+    "place": "Metro",
+    "start_time": "2023-09-25T09:03:00",
+    "visit_duration": 0.7
+  },
+  {
+    "color": "#0FA1D4",
+    "end_time": "2023-09-25T09:42:00",
+    "place": "Bus",
+    "start_time": "2023-09-25T09:27:00",
+    "visit_duration": 0.7
+  },
+  {
+    "color": "#098C37",
+    "end_time": "2023-09-25T12:15:00",
+    "place": "Tower",
+    "start_time": "2023-09-25T09:42:00",
+    "visit_duration": 0.7
+  },
+  {
+    "color": "#FA7921",
+    "end_time": "2023-09-25T14:00:00",
+    "place": "Restorant",
+    "start_time": "2023-09-25T12:15:00",
+    "visit_duration": 0.7
+  },
+  {
+    "color": "#0FA1D4",
+    "end_time": "2023-09-25T14:27:00",
+    "place": "Bus",
+    "start_time": "2023-09-25T14:00:00",
+    "visit_duration": 0.7
+  },
+  {
+    "color": "#244690",
+    "end_time": "2023-09-25T17:00:00",
+    "place": "Arch",
+    "start_time": "2023-09-25T14:27:00",
+    "visit_duration": 0.7
+  }
+]
