@@ -1,6 +1,5 @@
 import { cellSize, hourCellSize, interval } from '~/constants'
 import { CoordinateType } from './types'
-
 export const getCurrentTime = () => {
   const now = new Date()
   const hours = now.getHours()
@@ -77,7 +76,9 @@ export const generate_time_sections = (min_separator = 30) => {
   return time_sections
 }
 
-type TransformDataToCoordinatesType = (data: object[]) => CoordinateType[]
+type TransformDataToCoordinatesType = (
+  data: { [key: string]: any }[],
+) => CoordinateType[]
 export const transformDataToCoordinates: TransformDataToCoordinatesType = (
   data,
 ) => {
